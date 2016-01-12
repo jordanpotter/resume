@@ -2,14 +2,14 @@
 	'use strict';
 
 	function getTemplate() {
-		return $.get('resume.handlebars')
+		return $.get('templates/resume.handlebars')
 			.then(function(template) {
 				return Handlebars.compile(template);
 			});
 	}
 
 	function getData() {
-		return $.get('resume.json')
+		return $.get('data/resume.json')
 			.then(function(data) {
 				return data;
 			});
@@ -21,7 +21,8 @@
 	}
 
 	function errorHandler(err) {
-		alert(err);
+		var message = err.responseText || err;
+		alert(message);
 	}
 
 	$.when(getTemplate(), getData())
