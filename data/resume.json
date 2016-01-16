@@ -1,7 +1,147 @@
 {
 	"name": "Jordan Potter",
+	"role": "Senior Software Engineer",
 	"contact": {
 		"email": "me@jordanpotter.com",
 		"phone": "559.943.7357"
-	}
+	},
+	"universities": [{
+		"name": "Stanford University",
+		"duration": {
+			"start": "2008",
+			"end": "2011"
+		},
+		"degree": "Bachelor of Science in Computer Science",
+		"gpa": 3.814,
+		"classes": [
+			"Computer Networking",
+			"Computer and Network Security",
+			"Cryptography",
+			"Secure Web Programming",
+			"Algorithms",
+			"Programming Paradigms",
+			"Programming Abstractions in C++",
+			"Artificial Intelligence",
+			"Research Project in Artificial Intelligence",
+			"Algorithmic Game Theory",
+			"Operating Systems",
+			"Advanced Operating Systems"
+		],
+		"achievements": [
+			"Tau Beta Pi, awarded to top 12.5% of students in Engineering"
+		]
+	}, {
+		"name": "Purdue University",
+		"duration": {
+			"start": "2007",
+			"end": "2008"
+		},
+		"degree": "Studied Computer Science and Electrical Engineering",
+		"gpa": 4.0,
+		"classes": [
+			"Programming in C",
+			"Algorithmic Data Structures",
+			"Multivariable Calculus",
+			"Linear Algebra",
+			"Differential Equations"
+		]
+	}],
+	"careers": [{
+		"name": "Socotra",
+		"duration": {
+			"start": "2014",
+			"end": "present"
+		},
+		"positions": [
+			"Senior Software Engineer"
+		],
+		"responsibilities": [
+			"TODO"
+		]
+	}, {
+		"name": "Koality (Acquired by Docker)",
+		"duration": {
+			"start": "2012",
+			"end": "2014"
+		},
+		"positions": [
+			"Founder",
+			"Chief Operating Officer"
+		],
+		"responsibilities": [
+			"Built and led team of engineers, salesmen, and marketers to create an on-premise testing solution",
+			"Designed secure and scalable infrastructure by leveraging cloud architecture",
+			"Distilled complex concepts into simple design with a focus on user experience",
+			"Conducted numerous exploratory customer meetings to determine project requirements",
+			"Managed customer relationships, including feature requests and bug handling"
+		]
+	}, {
+		"name": "Palantir",
+		"duration": {
+			"start": "2011",
+			"end": "2012"
+		},
+		"positions": [
+			"Software Engineer"
+		],
+		"responsibilities": [
+			"Helped government organizations better understand complex and unstructured data",
+			"Worked with teams of engineers and designers to release multiple world-changing projects",
+			"Led front-end projects that later were patented"
+		]
+	}, {
+		"name": "Microsoft",
+		"duration": {
+			"start": "2010"
+		},
+		"positions": [
+			"Software Engineer Intern"
+		],
+		"responsibilities": [
+			"Worked on a new, key feature that is a main component in the Windows 8 operating system",
+			"Prepared numerous presentations discussing the new feature for an audience of more than 500",
+			"Experienced programming in a large environment to produce a product for more than 400 million users"
+		]
+	}],
+	"publications": [{
+		"name": "2010 AAAI Spring Symposium on Embedded Reasoning",
+		"descriptions": [
+			"Assisted Highway Lane Changing with RASCL",
+			"Report of research with Sebastian Thrun on autonomously merging vehicles into highway traffic"
+		]
+	}, {
+		"name": "Search Around Visual Queries",
+		"descriptions": [
+			"Patent for algorithms and user interfaces created at Palantir to visualize search queries",
+			"Describes method to search across massive data sets efficiently"
+		]
+	}],
+	"skills": [{
+		"name": "Go",
+		"value": 5
+	}, {
+		"name": "Java",
+		"value": 3.5
+	}, {
+		"name": "Python",
+		"value": 4
+	}, {
+		"name": "SQL",
+		"value": 4
+	}, {
+		"name": "Javascript",
+		"value": 4
+	}, {
+		"name": "Coffeescript",
+		"value": 5
+	}, {
+		"name": "Typescript",
+		"value": 5
+	}, {
+		"name": "CSS",
+		"value": 5
+	}, {
+		"name": "SASS",
+		"value": 4
+	}]
 }
