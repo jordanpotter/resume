@@ -1,14 +1,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	background: url('/img/background.png') repeat;
 }
 
 #resume {
-	margin: 0 auto;
+	margin: 30px auto;
 	padding: 30px;
 	width: 816px;   /* 8.5 inches */
 	height: 1056px; /* 11 inches */
 	box-sizing: border-box;
-	border: 1px solid #D2D2D2;
+	border: 1px solid #E0E0E0;
+	background-color: #FFFFFF;
 }
 
 .title {
@@ -17,16 +19,5 @@ body {
 
 .highlight {
 	color: #30D5C8;
-}
-
-#header {
-	font-size: 36px;
-}
-
-#name {
-}
-
-#role {
-	margin-left: 20px;
 }
 
