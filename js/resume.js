@@ -1,21 +1,38 @@
 (function () {
 	'use strict';
 
-	function getTemplate() {
+	var template;
+	var data;
+
+	function loadPartial(path, name) {
+		return $.get(path)
+			.then(function(response) {
+				var partial = Handlebars.compile(response);
+				Handlebars.registerPartial(name, partial);
+			});
+	}
+
+	function loadPartials() {
+		return $.when(
+			loadPartial('templates/header.handlebars', 'header')
+		);
+	}
+
+	function loadTemplate() {
 		return $.get('templates/resume.handlebars')
-			.then(function(template) {
-				return Handlebars.compile(template);
+			.then(function(response) {
+				template = Handlebars.compile(response);
 			});
 	}
 
-	function getData() {
+	function loadData() {
 		return $.get('data/resume.json')
-			.then(function(data) {
-				return data;
+			.then(function(response) {
+				data = response;
 			});
 	}
 
-	function processTemplate(template, data) {
+	function renderTemplate() {
 		var html = template(data);
 		$('#resume').html(html);
 	}
@@ -25,7 +42,7 @@
 		alert(message);
 	}
 
-	$.when(getTemplate(), getData())
-		.then(processTemplate)
+	$.when(loadPartials(), loadTemplate(), loadData())
+		.then(renderTemplate)
 		.fail(errorHandler);
 }());
