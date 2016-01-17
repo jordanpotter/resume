@@ -1,5 +1,8 @@
 {
-	"name": "Jordan Potter",
+	"name": {
+		"first": "Jordan",
+		"last": "Potter"
+	},
 	"role": "Senior Software Engineer",
 	"contact": {
 		"email": "me@jordanpotter.com",
@@ -118,30 +121,30 @@
 	}],
 	"skills": [{
 		"name": "Go",
-		"value": 5
+		"value": 10
 	}, {
 		"name": "Java",
-		"value": 3.5
+		"value": 7
 	}, {
 		"name": "Python",
-		"value": 4
+		"value": 8
 	}, {
 		"name": "SQL",
-		"value": 4
+		"value": 7
 	}, {
 		"name": "Javascript",
-		"value": 4
+		"value": 8
 	}, {
 		"name": "Coffeescript",
-		"value": 5
+		"value": 10
 	}, {
 		"name": "Typescript",
-		"value": 5
+		"value": 10
 	}, {
 		"name": "CSS",
-		"value": 5
+		"value": 10
 	}, {
 		"name": "SASS",
-		"value": 4
+		"value": 9
 	}]
 }
