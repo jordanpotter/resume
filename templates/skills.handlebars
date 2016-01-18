@@ -1,0 +1,10 @@
+<div id="skills">
+	{{#each skills}}
+	<div class="skill">
+		<span class="skill-name title">{{this.name}}</span>
+		<div class="skill-value">
+			<div class="skill-value-bar highlight-background" style="width:{{this.value}}0%;"></div>
+		</div>
+	</div>
+	{{/each}}
+</div>

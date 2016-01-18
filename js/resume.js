@@ -14,7 +14,8 @@
 
 	function loadPartials() {
 		return $.when(
-			loadPartial('templates/header.handlebars', 'header')
+			loadPartial('templates/header.handlebars', 'header'),
+			loadPartial('templates/skills.handlebars', 'skills')
 		);
 	}
 
