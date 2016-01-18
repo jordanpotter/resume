@@ -1,4 +1,5 @@
 #header {
+	animation: fade-in 1s;
 	margin-bottom: 30px;
 	font-size: 36px;
 }
