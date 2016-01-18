@@ -6,8 +6,8 @@ body {
 #resume {
 	margin: 30px auto;
 	padding: 30px;
-	width: 816px;   /* 8.5 inches */
-	height: 1056px; /* 11 inches */
+	width: 8.5in;
+	height: 11in;
 	box-sizing: border-box;
 	border: 1px solid #E0E0E0;
 	background-color: #FFFFFF;
