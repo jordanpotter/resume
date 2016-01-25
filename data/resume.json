@@ -147,5 +147,6 @@
 	}, {
 		"name": "SASS",
 		"value": 9
-	}]
+	}],
+	"repository": "github.com/jordanpotter/resume"
 }

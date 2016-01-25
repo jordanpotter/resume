@@ -3,6 +3,11 @@ body {
 	background: url('/img/background.png') repeat;
 }
 
+a {
+	color: #30D5C8;
+	text-decoration: none;
+}
+
 #resume {
 	margin: 30px auto;
 	padding: 30px;
@@ -30,6 +35,10 @@ body {
 	margin-bottom: 30px;
 }
 
+#footer-container {
+	animation: fade-in 10s;
+}
+
 #skills-container {
 	animation: fade-in 2s;
 	margin-bottom: 30px;
@@ -43,5 +52,6 @@ body {
 
 #universities-container {
 	animation: fade-in 4s;
+	margin-bottom: 30px;
 }
 
