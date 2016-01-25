@@ -36,7 +36,12 @@ body {
 	width: 250px;
 }
 
-#universities-container {
+#careers-container {
 	animation: fade-in 3s;
+	margin-bottom: 30px;
+}
+
+#universities-container {
+	animation: fade-in 4s;
 }
 

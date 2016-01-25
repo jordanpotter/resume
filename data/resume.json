@@ -95,7 +95,8 @@
 	}, {
 		"name": "Microsoft",
 		"duration": {
-			"start": "2010"
+			"start": "2010",
+			"end": "2010"
 		},
 		"positions": [
 			"Software Engineer Intern"

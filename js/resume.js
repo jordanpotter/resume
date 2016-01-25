@@ -16,6 +16,7 @@
 		return $.when(
 			loadPartial('templates/header.handlebars', 'header'),
 			loadPartial('templates/skills.handlebars', 'skills'),
+			loadPartial('templates/careers.handlebars', 'careers'),
 			loadPartial('templates/universities.handlebars', 'universities')
 		);
 	}

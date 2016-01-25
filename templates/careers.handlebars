@@ -1,7 +1,7 @@
-<div id="universities">
-	<div class="title">Education</div>
+<div id="careers">
+	<div class="title">Work Experience</div>
 
-	{{#each universities}}
+	{{#each careers}}
 	<div class="event">
 		<div class="event-title">
 			<span class="event-name">{{this.name}}</span>
@@ -13,12 +13,14 @@
 		</div>	
 
 		<div class="event-subtitle">
-			{{this.degree}} - {{this.gpa}}
+			{{#each this.positions}}
+				{{this}}{{#unless @last}},{{/unless}}
+			{{/each}}
 		</div>
 
 		<div class="event-description">
-			{{#each this.classes}}
-				{{this}}{{#unless @last}},{{/unless}}
+			{{#each this.responsibilities}}
+				{{this}}{{#unless @last}}.{{/unless}}
 			{{/each}}
 		</div>
 	</div>
