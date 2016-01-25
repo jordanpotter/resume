@@ -25,3 +25,18 @@ body {
 	background-color: #30D5C8;
 }
 
+#header-container {
+	animation: fade-in 1s;
+	margin-bottom: 30px;
+}
+
+#skills-container {
+	animation: fade-in 2s;
+	margin-bottom: 30px;
+	width: 250px;
+}
+
+#universities-container {
+	animation: fade-in 3s;
+}
+

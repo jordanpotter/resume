@@ -1,0 +1,27 @@
+<div id="education">
+	<div class="title">Education</div>
+
+	{{#each universities}}
+	<div class="event">
+		<div class="event-title">
+			<span class="event-name">{{this.name}}</span>
+			<span class="event-duration">
+				<span class="event-duration-start">{{this.duration.start}}</span>
+				<span class="event-duration-divider">-</span>
+				<span class="event-duration-end">{{this.duration.end}}</span>
+			</span>
+		</div>	
+
+		<div class="event-subtitle">
+			{{this.degree}} - {{this.gpa}}
+		</div>
+
+		<div class="event-description">
+			{{#each this.classes}}
+				{{this}}{{#unless @last}},{{/unless}}
+			{{/each}}
+		</div>
+	</div>
+	{{/each}}
+</div>
+
