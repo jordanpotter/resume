@@ -4,6 +4,7 @@
 		"last": "Potter"
 	},
 	"role": "Senior Software Engineer",
+	"avatar": "//avatars2.githubusercontent.com/u/241256?v=3&s=460",
 	"contact": {
 		"email": "me@jordanpotter.com",
 		"phone": "559.943.7357"
@@ -90,7 +91,7 @@
 		"responsibilities": [
 			"Helped government organizations better understand complex and unstructured data",
 			"Worked with teams of engineers and designers to release multiple world-changing projects",
-			"Led front-end projects that later were patented"
+			"Led frontend projects that later were patented"
 		]
 	}, {
 		"name": "Microsoft",

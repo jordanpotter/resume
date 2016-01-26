@@ -1,22 +1,22 @@
 <div id="universities">
-	<div class="title">Education</div>
+	<div class="history-title title">Education</div>
 
 	{{#each universities}}
-	<div class="event">
-		<div class="event-title">
-			<span class="event-name title">{{this.name}}</span>
-			<span class="event-duration">
-				<span class="event-duration-start">{{this.duration.start}}</span>
-				<span class="event-duration-divider">-</span>
-				<span class="event-duration-end">{{this.duration.end}}</span>
+	<div class="history-event">
+		<div class="history-event-title">
+			<span class="history-event-name title">{{this.name}}</span>
+			<span class="history-event-duration">
+				<span class="history-event-duration-start">{{this.duration.start}}</span>
+				<span class="history-event-duration-divider">-</span>
+				<span class="history-event-duration-end">{{this.duration.end}}</span>
 			</span>
 		</div>	
 
-		<div class="event-subtitle">
+		<div class="history-event-subtitle">
 			{{this.degree}} - {{this.gpa}}
 		</div>
 
-		<div class="event-description">
+		<div class="history-event-description">
 			{{#each this.classes}}
 				{{this}}{{#unless @last}},{{/unless}}
 			{{/each}}

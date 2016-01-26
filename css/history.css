@@ -1,6 +1,10 @@
 #history {
 }
 
+.history-title {
+	font-size: 24px;
+}
+
 .history-event {
 	margin-bottom: 20px;
 }
