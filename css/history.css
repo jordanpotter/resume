@@ -1,0 +1,19 @@
+#history {
+}
+
+.history-event {
+	margin-bottom: 20px;
+}
+
+.history-event:last-child {
+	margin-bottom: 0;
+}
+
+#careers-container {
+	animation: fade-in 1s;
+}
+
+#universities-container {
+	animation: fade-in 2s;
+}
+

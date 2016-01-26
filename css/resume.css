@@ -9,12 +9,11 @@ a {
 }
 
 #resume {
+	display: flex;
 	margin: 30px auto;
-	padding: 30px;
 	width: 8.5in;
 	height: 11in;
-	box-sizing: border-box;
-	border: 1px solid #E0E0E0;
+	box-shadow: 0 0 20px #888888;
 	background-color: #FFFFFF;
 }
 
@@ -30,28 +29,14 @@ a {
 	background-color: #30D5C8;
 }
 
-#header-container {
-	animation: fade-in 1s;
-	margin-bottom: 30px;
+#profile-container {
+	flex: 0 200px;
+	box-sizing: border-box;
 }
 
-#footer-container {
-	animation: fade-in 10s;
-}
-
-#skills-container {
-	animation: fade-in 2s;
-	margin-bottom: 30px;
-	width: 250px;
-}
-
-#careers-container {
-	animation: fade-in 3s;
-	margin-bottom: 30px;
-}
-
-#universities-container {
-	animation: fade-in 4s;
-	margin-bottom: 30px;
+#history-container {
+	flex: 1;
+	padding: 30px;
+	box-sizing: border-box;
 }
 
