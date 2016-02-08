@@ -2,7 +2,8 @@
 }
 
 .history-title {
-	font-size: 24px;
+	margin-bottom: 8px;
+	font-size: 2em;
 }
 
 .history-event {
@@ -11,6 +12,20 @@
 
 .history-event:last-child {
 	margin-bottom: 0;
+}
+
+.history-event-title {
+	font-size: 1.35em;
+	font-weight: 300;
+}
+
+.history-event-title-duration {
+	margin-left: 4px;
+	font-size: 0.7em;
+}
+
+.history-event-subtitle {
+	font-style: italic;
 }
 
 #careers-container {

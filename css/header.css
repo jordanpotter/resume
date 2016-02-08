@@ -19,6 +19,7 @@
 	bottom: 10px;
 	z-index: 1;
 	text-align: right;
+	text-shadow: 1px 1px #767676;
 }
 
 #header-title-name {

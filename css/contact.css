@@ -3,9 +3,9 @@
 
 .contact-option {
 	display: flex;
-	margin-top: 5px;
-	height: 28px;
-	line-height: 28px;
+	margin-top: 6px;
+	height: 24px;
+	line-height: 24px;
 }
 
 .contact-option:first-child {
@@ -13,11 +13,13 @@
 }
 
 .contact-option-icon {
-	flex-basis: 45px;
-	font-size: 28px;
+	flex-basis: 30px;
+	font-size: 24px;
+	text-align: center;
 }
 
 .contact-option-value {
 	flex-grow: 1;
+	margin-left: 20px;
 }
 
