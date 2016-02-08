@@ -20,7 +20,8 @@
 			loadPartial('templates/skills.handlebars', 'skills'),
 			loadPartial('templates/history.handlebars', 'history'),
 			loadPartial('templates/careers.handlebars', 'careers'),
-			loadPartial('templates/universities.handlebars', 'universities')
+			loadPartial('templates/universities.handlebars', 'universities'),
+			loadPartial('templates/footer.handlebars', 'footer')
 		);
 	}
 
