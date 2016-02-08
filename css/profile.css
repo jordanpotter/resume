@@ -1,7 +1,13 @@
 #profile {
 }
 
-#skills-container {
+#contact-container {
+	margin-top: 20px;
 	animation: fade-in 1s;
+}
+
+#skills-container {
+	margin-top: 20px;
+	animation: fade-in 2s;
 }
 

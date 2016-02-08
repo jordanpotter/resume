@@ -1,0 +1,23 @@
+#contact {
+}
+
+.contact-option {
+	display: flex;
+	margin-top: 5px;
+	height: 28px;
+	line-height: 28px;
+}
+
+.contact-option:first-child {
+	margin-top: 0;
+}
+
+.contact-option-icon {
+	flex-basis: 45px;
+	font-size: 28px;
+}
+
+.contact-option-value {
+	flex-grow: 1;
+}
+

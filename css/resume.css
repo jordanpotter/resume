@@ -11,6 +11,7 @@ a {
 #resume {
 	display: flex;
 	margin: 30px auto;
+	padding: 30px;
 	width: 8.5in;
 	height: 11in;
 	box-shadow: 0 0 20px #888888;
@@ -30,13 +31,13 @@ a {
 }
 
 #profile-container {
-	flex: 0 2.8in;
+	flex: 0 2.5in;
 	box-sizing: border-box;
 }
 
 #history-container {
 	flex: 1;
-	padding: 30px;
+	padding-left: 30px;
 	box-sizing: border-box;
 }
 

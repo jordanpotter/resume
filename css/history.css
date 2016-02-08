@@ -18,6 +18,7 @@
 }
 
 #universities-container {
+	margin-top: 30px;
 	animation: fade-in 2s;
 }
 
