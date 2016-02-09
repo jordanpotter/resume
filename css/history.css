@@ -1,12 +1,8 @@
 #history {
 }
 
-.history-title {
-	margin-bottom: 8px;
-	font-size: 2em;
-}
-
 .history-event {
+	position: relative;
 	margin-bottom: 20px;
 }
 
@@ -14,17 +10,14 @@
 	margin-bottom: 0;
 }
 
-.history-event-title {
-	font-size: 1.35em;
-	font-weight: 300;
-}
-
-.history-event-title-duration {
-	margin-left: 4px;
-	font-size: 0.7em;
+.history-event-duration {
+	position: absolute;
+	top: 4px;
+	right: 0;
 }
 
 .history-event-subtitle {
+	margin-bottom: 0.1em;
 	font-style: italic;
 }
 

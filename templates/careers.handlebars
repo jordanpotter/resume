@@ -1,16 +1,13 @@
 <div id="careers">
-	<div class="history-title title">Work Experience</div>
+	<h1>Work Experience</h1>
 
 	{{#each careers}}
 	<div class="history-event">
-		<div class="history-event-title title">
-			<span class="history-event-title-name">{{this.name}}</span>
-			<span class="history-event-title-duration">
-				<span class="history-event-title-duration-start">{{this.duration.start}}</span>
-				<span class="history-event-title-duration-divider">-</span>
-				<span class="history-event-title-duration-end">{{this.duration.end}}</span>
-			</span>
-		</div>	
+		<h3>{{this.name}}</h3>
+
+		<div class="history-event-duration">
+			{{this.duration.start}} - {{this.duration.end}}
+		</div>
 
 		<div class="history-event-subtitle">
 			{{#each this.positions}}
@@ -18,11 +15,11 @@
 			{{/each}}
 		</div>
 
-		<div class="history-event-description">
+		<p class="history-event-description">
 			{{#each this.responsibilities}}
 				{{this}}{{#unless @last}}.{{/unless}}
 			{{/each}}
-		</div>
+		</p>
 	</div>
 	{{/each}}
 </div>

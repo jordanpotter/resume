@@ -1,17 +1,11 @@
 #profile {
 }
 
-.profile-title {
-	margin-bottom: 8px;
-	font-size: 1.35em;
-	font-weight: 300;
-}
-
 #header-container {
 }
 
 #summary-container {
-	margin-top: 20px;
+	margin-top: 28px;
 	animation: fade-in 1s;
 }
 
