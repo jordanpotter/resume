@@ -1,9 +1,23 @@
 #profile {
 }
 
-#contact-container {
+.profile-title {
+	margin-bottom: 8px;
+	font-size: 1.35em;
+	font-weight: 300;
+}
+
+#header-container {
+}
+
+#summary-container {
 	margin-top: 20px;
 	animation: fade-in 1s;
+}
+
+#contact-container {
+	margin-top: 20px;
+	animation: fade-in 1.5s;
 }
 
 #skills-container {
@@ -13,6 +27,6 @@
 
 #footer-container {
 	margin-top: 20px;
-	animation: fade-in 3s;
+	animation: fade-in 2.5s;
 }
 

@@ -16,6 +16,7 @@
 		return $.when(
 			loadPartial('templates/profile.handlebars', 'profile'),
 			loadPartial('templates/header.handlebars', 'header'),
+			loadPartial('templates/summary.handlebars', 'summary'),
 			loadPartial('templates/contact.handlebars', 'contact'),
 			loadPartial('templates/skills.handlebars', 'skills'),
 			loadPartial('templates/history.handlebars', 'history'),
