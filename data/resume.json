@@ -63,11 +63,11 @@
 			"Senior Software Engineer"
 		],
 		"responsibilities": [
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-			"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-			"Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-			"Laboris nisi ut aliquip ex ea commodo consequat",
-			" Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat"
+			"Designed and architected frontend application for diverse user demographics",
+			"Planned, implemented, and deployed multiple user-facing features",
+			"Embedded modern tools and frameworks to meet latency and performance requirements",
+			"Prototyped and built end-to-end testing framework to verify code safety",
+			"Coordinated with deployments and traveled to Africa to ensure product success"
 		]
 	}, {
 		"name": "Koality, Acquired by Docker",
@@ -98,6 +98,7 @@
 		"responsibilities": [
 			"Helped government organizations better understand complex and unstructured data",
 			"Worked with teams of engineers and designers to release multiple world-changing projects",
+			"Designed a visual user experience to empower analysts to complete elaborate data queries",
 			"Led frontend projects that later were patented"
 		]
 	}, {
