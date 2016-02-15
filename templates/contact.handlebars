@@ -3,22 +3,23 @@
 
 	<div class="contact-option">
 		<i class="contact-option-icon fa fa-phone"></i>
-		<span class="contact-option-value">{{contact.phone}}</span>
-	</div>
-
-	<div class="contact-option">
-		<i class="contact-option-icon fa fa-globe"></i>
-		<span class="contact-option-value">{{contact.website}}</span>
+		<span class="contact-option-value">
+			<a href="tel:{{contact.phone}}">{{contact.phone}}</a>
+		</span>
 	</div>
 
 	<div class="contact-option">
 		<i class="contact-option-icon fa fa-envelope-o"></i>
-		<span class="contact-option-value">{{contact.email}}</span>
+		<span class="contact-option-value">
+			<a href="mailto:{{contact.email}}?Subject=Hello" target="_top">{{contact.email}}</a>
+		</span>
 	</div>
 
 	<div class="contact-option">
-		<i class="contact-option-icon fa fa-github"></i>
-		<span class="contact-option-value">{{contact.github}}</span>
+		<i class="contact-option-icon fa fa-globe"></i>
+		<span class="contact-option-value">
+			<a href="//{{contact.website}}">{{contact.website}}</a>
+		</span>
 	</div>
 </div>
 

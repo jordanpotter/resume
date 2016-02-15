@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 12pt;
 	background: url('/img/background.png') repeat;
 }
 
@@ -23,7 +23,7 @@ p {
 }
 
 a {
-	color: #30D5C8;
+	color: #34C4C9;
 	text-decoration: none;
 }
 
@@ -37,14 +37,6 @@ a {
 	background-color: #FFFFFF;
 }
 
-.highlight {
-	color: #30D5C8;
-}
-
-.highlight-background {
-	background-color: #30D5C8;
-}
-
 #profile-container {
 	flex: 0 2.5in;
 	box-sizing: border-box;
@@ -55,5 +47,31 @@ a {
 	margin-top: -6px;
 	padding-left: 40px;
 	box-sizing: border-box;
+}
+
+.highlight {
+	color: #34C4C9;
+}
+
+.highlight-background {
+	display: block;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+
+.highlight-background:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+	border-bottom: 10000px solid #34C4C9;
+}
+
+.highlight-background.dark-translucent:before {
+	border-bottom-color: rgba(0, 0, 0, .4);
 }
 

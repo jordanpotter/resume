@@ -1,0 +1,22 @@
+@media print {
+
+	@page {
+		size: 8.5in 11in;
+		margin: 0;
+	}
+
+	body {
+		-webkit-print-color-adjust: exact;
+	}
+
+	a {
+		color: #000000;
+	}
+
+	#resume {
+		margin: 0;
+		box-shadow: none;
+		background-color: none;
+	}
+}
+
