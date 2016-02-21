@@ -33,6 +33,7 @@ a {
 	padding: 40px;
 	width: 8.5in;
 	height: 11in;
+	box-sizing: border-box;
 	box-shadow: 0 0 20px #888888;
 	background-color: #FFFFFF;
 }
