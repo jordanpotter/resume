@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 11pt;
+	font-size: 10pt;
 	background: url('/img/background.png') repeat;
 }
 
@@ -39,15 +39,14 @@ a {
 }
 
 #profile-container {
-	flex: 0 2.5in;
+	flex: 0 2.7in;
+	padding-right: 40px;
 	box-sizing: border-box;
 }
 
 #history-container {
 	flex: 1;
 	margin-top: -6px;
-	padding-left: 40px;
-	box-sizing: border-box;
 }
 
 .highlight {
