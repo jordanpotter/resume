@@ -15,7 +15,7 @@
 	position: absolute;
 	right: 8px;
 	bottom: 8px;
-	padding: 2px 10px;
+	padding: 2px 10px 4px;
 	color: #FFFFFF;
 	font-weight: 500;
 	text-align: right;
@@ -27,6 +27,6 @@
 }
 
 #header-title-role {
-	font-size: 16px;
+	font-size: 14px;
 }
 

@@ -17,7 +17,7 @@
 
 		<p class="history-event-description">
 			{{#each this.responsibilities}}
-				{{this}}{{#unless @last}}.{{/unless}}
+				{{this}} {{#unless @last}}<span class="dot"></span>{{/unless}}
 			{{/each}}
 		</p>
 	</div>

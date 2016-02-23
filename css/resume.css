@@ -14,7 +14,7 @@ h1 {
 h3 {
 	margin: 0 0 0.18em 0;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.35em;
+	font-size: 1.5em;
 	font-weight: 300;
 }
 
@@ -29,8 +29,8 @@ a {
 
 #resume {
 	display: flex;
-	margin: 40px auto;
-	padding: 40px;
+	margin: 50px auto;
+	padding: 50px;
 	width: 8.5in;
 	height: 11in;
 	box-sizing: border-box;
@@ -40,13 +40,19 @@ a {
 
 #profile-container {
 	flex: 0 2.7in;
-	padding-right: 40px;
+	padding-right: 50px;
 	box-sizing: border-box;
 }
 
 #history-container {
 	flex: 1;
 	margin-top: -6px;
+}
+
+.dot:before {
+	content: '·';
+	padding: 0 3px;
+	font-weight: 700;
 }
 
 .highlight {
