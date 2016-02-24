@@ -12,8 +12,10 @@
 
 .history-event-duration {
 	position: absolute;
-	top: 4px;
+	top: 7px;
 	right: 0;
+	font-weight: 500;
+	color: #8B8B8B;
 }
 
 .history-event-subtitle {

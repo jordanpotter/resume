@@ -23,14 +23,19 @@ p {
 }
 
 a {
+	font-weight: 500;
 	color: #34C4C9;
 	text-decoration: none;
 }
 
+::selection {
+	background: #34C4C9;
+}
+
 #resume {
 	display: flex;
-	margin: 50px auto;
-	padding: 50px;
+	margin: .75in auto;
+	padding: .75in;
 	width: 8.5in;
 	height: 11in;
 	box-sizing: border-box;
@@ -40,7 +45,7 @@ a {
 
 #profile-container {
 	flex: 0 2.7in;
-	padding-right: 50px;
+	padding-right: 40px;
 	box-sizing: border-box;
 }
 
@@ -78,6 +83,6 @@ a {
 }
 
 .highlight-background.dark-translucent:before {
-	border-bottom-color: rgba(0, 0, 0, .4);
+	border-bottom-color: rgba(0, 0, 0, .45);
 }
 
