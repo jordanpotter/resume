@@ -62,8 +62,8 @@
 			"Senior Software Engineer"
 		],
 		"responsibilities": [
-			"Designed and implemented application frontend for insurance industries in Africa and Asia",
-			"Architected infrastructure to meet latency and performance requirements across third world internet connections",
+			"Architected and implemented web application for insurance industries in Africa and Asia",
+			"Designed infrastructure to meet latency and performance requirements across third world internet connections",
 			"Prototyped and built end-to-end testing framework to verify code safety",
 			"Coordinated with deployments and traveled to Africa to ensure product success"
 		]
@@ -78,8 +78,8 @@
 		],
 		"responsibilities": [
 			"Built and led team of engineers, salesmen, and marketers to create an on-premise testing solution",
-			"Designed secure and scalable infrastructure by leveraging cloud architecture",
-			"Distilled complex concepts into simple design with a focus on user experience",
+			"Designed secure and scalable backend infrastructure by leveraging cloud architectures",
+			"Distilled complex concepts into a simple application with a focus on user experience",
 			"Conducted numerous exploratory customer meetings to determine project requirements",
 			"Managed customer relationships, including feature requests and bug handling"
 		]
@@ -108,7 +108,7 @@
 			"Software Engineer Intern"
 		],
 		"responsibilities": [
-			"Worked on a new, key feature that is a main component in the Windows 8 operating system",
+			"Worked on a new, key infrastructure feature that is a main component in the Windows 8 operating system",
 			"Prepared numerous presentations discussing the new feature for an audience of more than 500",
 			"Experienced programming in a large environment to produce a product for more than 400 million users"
 		]
@@ -134,22 +134,22 @@
 		"value": 6
 	}, {
 		"name": "Python",
-		"value": 7
+		"value": 8
 	}, {
 		"name": "SQL",
 		"value": 7
 	}, {
 		"name": "Javascript",
-		"value": 9
+		"value": 8
 	}, {
 		"name": "Coffeescript",
-		"value": 10
+		"value": 9
 	}, {
 		"name": "Typescript",
 		"value": 10
 	}, {
 		"name": "CSS",
-		"value": 10
+		"value": 9
 	}, {
 		"name": "SASS",
 		"value": 9
