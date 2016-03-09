@@ -23,12 +23,12 @@ p {
 }
 
 a {
-	color: #34C4C9;
+	color: #143C74;
 	text-decoration: none;
 }
 
 ::selection {
-	background: #34C4C9;
+	background: #143C74;
 }
 
 #resume {
@@ -78,7 +78,7 @@ a {
 	right: 0;
 	left: 0;
 	z-index: -1;
-	border-bottom: 10000px solid #34C4C9;
+	border-bottom: 10000px solid #143C74;
 }
 
 .highlight-background.dark-translucent:before {
